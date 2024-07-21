@@ -23,6 +23,8 @@ This class will look for Reports Folder in root that have all of your Reports
 ## Example
 new jasper().viewReport(Name of your Report as String, Hashmap of Parameters, Table Name)
 
+## Bonus
+All The library files are included
 
 ### Follow Me
 <p align="left">
