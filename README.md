@@ -23,6 +23,15 @@ This class will look for Reports Folder in root that have all of your Reports
 ## Example
 new jasper().viewReport(Name of your Report as String, Hashmap of Parameters, Table Name)
 
+## Example Export
+Jasper jas = new Jasper();
+<br/>
+        try {<br/>
+            jas.exportReportPDF(jas.viewReport(Name of your Report as String),PDF Name);<br/>
+        } catch (Exception e) {<br/>
+            e.printStackTrace();<br/>
+        }<br/><br/>
+
 ## Bonus
 All The library files are included
 
